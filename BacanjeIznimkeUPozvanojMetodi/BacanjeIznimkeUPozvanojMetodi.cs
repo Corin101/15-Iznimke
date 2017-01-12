@@ -8,12 +8,12 @@ namespace Vsite.CSharp
     {
         static void Main(string[] args)
         {
-            // TODO: Prije izvođenja programa pokušati predvidjeti tok programa. Pokrenuti program i provjeriti ispravnost pretpostavke.
+            //  Prije izvođenja programa pokušati predvidjeti tok programa. Pokrenuti program i provjeriti ispravnost pretpostavke.
             try
             {
                 Metoda1();
             }
-            // TODO: Zakomentirati donji blok catch i provjeriti što će se dogoditi ponovnim pokretanjem programa.
+            //  Zakomentirati donji blok catch i provjeriti što će se dogoditi ponovnim pokretanjem programa.
             catch (Exception e)
             {
                 Console.WriteLine("catch(Exception) u Main");
@@ -36,7 +36,7 @@ namespace Vsite.CSharp
             {
                 Console.WriteLine("catch(ArgumentException) u Metoda1");
             }
-            // TODO: Kako bi izgledalo izvođenje programa kada bi se izostavio donji blok hvatanja? Zakomenirajte ga i pokrenite program. 
+            //  Kako bi izgledalo izvođenje programa kada bi se izostavio donji blok hvatanja? Zakomenirajte ga i pokrenite program. 
             catch (DivideByZeroException)
             {
                 Console.WriteLine("catch(DivideByZeroException) u Metoda1");
